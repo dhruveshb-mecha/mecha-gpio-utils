@@ -1,0 +1,156 @@
+# GPIO configs for mehca-comet-m-gen1 device
+
+# [[pins]]# num = 30
+# names = ["GPIO30", "GPIO0_30", "P9_11", "UART4_RX"]
+
+# [[pins]]# num = 60
+# names = ["GPIO_60", "GPIO1_28", "P9_12"]
+
+# add this kind of config for next 30 pins and give nums 1 to 30 and leave the names  empty for now
+
+[[pins]]
+num = 1
+names = ["GPIO1_IO01","PWM1_OUT"]
+
+[[pins]]
+num = 2
+names = ["GPIO2_IO_15","SD2_DATA0"]
+
+[[pins]]
+num = 3
+names = ["GPIO5_IO_27","UART3_TXD"]
+
+
+[[pins]]
+num = 4
+names = ["GPIO5_IO26","UART3_RXD"]
+
+[[pins]]
+num = 5
+names = ["GPIO5_IO18","I2C3_SCL"]
+
+[[pins]]
+num = 6
+names = ["GPIO5_IO19","I2C3_SDA"]
+
+[[pins]]
+num = 7
+names = ["GPIO5_IO11","ECSPI2_MISO"]
+
+[[pins]]
+num = 8
+names = ["GPIO5_IO12","ECSPI2_MOSI"]
+
+[[pins]]
+num = 9
+names = ["GPIO5_IO10","ECSPI2_SCLK"]
+
+[[pins]]
+num = 10
+names = ["GPIO05_IO13","ESPI2_SS0"]
+
+[[pins]]
+num = 11
+names = ["GPIO4_IO22","SAI2_RXC"]
+
+[[pins]]
+num = 12
+names = ["GPIO2_IO16","SD2_DATA1"]
+
+[[pins]]
+num = 13
+names = ["GPIO4_IO28","SAI3_RXFS"]
+
+[[pins]]
+num = 14
+names = ["GPIO5_IO10","ESPI2_SCLK"]
+
+[[pins]]
+num = 15
+names = ["GPIO5_IO12","ECSPI2_MOSI"]
+
+[[pins]]
+num = 16
+names = ["GPIO5_IO11","ECSPI2_MISO"]
+
+[[pins]]
+num = 17
+names = ["GPIO5_IO19","I2C3_SDA"]
+
+[[pins]]
+num = 18
+names = ["GPIO5_IO18","I2C3_SCL"]
+
+[[pins]]
+num = 19
+names = ["GPIO5_IO28","UART4_RXD"]
+
+[[pins]]
+num = 20
+names = ["GPIO5_IO29","UART4_TXD"]
+
+[[pins]]
+num = 21
+names = ["GPIO2_IO14","SD2_CMD"]
+
+[[pins]]
+num = 22
+names = ["GPIO5_IO04","PWM2_OUT"]
+
+[[pins]]
+num = 23
+names = ["GPIO2_IO12","SD2_CD_B"]
+
+[[pins]]
+num = 24
+names = ["GPIO2_IO20","SD2_WP"]
+
+[[pins]]
+num = 25
+names = ["GPIO4_IO27","SAI2_MCLK"]
+
+[[pins]]
+num = 26
+names = ["GPIO1_IO13","PWM2_OUT"]
+
+[[pins]]
+num = 27
+names = ["GPIO2_IO17","SD2_DATA2"]
+
+[[pins]]
+num = 28
+names = ["GPIO2_IO18","SD2_DATA3"]
+
+[[pins]]
+num = 29
+names = ["GPIO2_IO13","SD2_CLK"]
+
+# [[pins]]
+# num = 30
+# names = []
+
+# [[pins]]
+# num = 31
+# names = []
+
+# [[pins]]
+# num = 32
+# names = []
+
+# [[pins]]
+# num = 33
+# names = []
+
+# [[pins]]
+# num = 34
+# names = []
+
+# [[pins]]
+
+# num = 35
+# names = []
+
+# [[pins]]
+# num = 36
+# names = []
+
