@@ -7,13 +7,13 @@
 // except according to those terms.
 extern crate clap;
 extern crate env_logger;
-extern crate gpio_utils;
+extern crate mecha_gpio_utils;
 extern crate log;
 
 use clap::{App, AppSettings, Arg, SubCommand};
-use gpio_utils::commands::*;
-use gpio_utils::config::{self, GpioConfig};
-use gpio_utils::options::*;
+use mecha_gpio_utils::commands::*;
+use mecha_gpio_utils::config::{self, GpioConfig};
+use mecha_gpio_utils::options::*;
 use std::process::exit;
 
 fn main() {

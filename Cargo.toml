@@ -1,11 +1,14 @@
 [package]
-name = "gpio-utils"
+name = "mecha-gpio-utils"
 version = "0.3.0"
-authors = ["Rust Embedded WG Linux Team <embedded-linux@teams.rust-embedded.org>",
-           "Paul Osborne <osbpau@gmail.com>"]
+authors = [
+    "DhruveshB <dhruveshb@mechasystems.com>",
+     "Shoaib Merchant <shoaibm@mechasystems.com>"
+]
 license = "MIT/Apache-2.0"
 readme = "README.md"
-homepage = "https://github.com/rust-embedded/gpio-utils"
+repository = "https://github.com/mecha-org/mechanix-apps"
+homepage = "https://mecha.so"
 keywords = ["gpio", "linux", "sysfs_gpio", "cli", "command-line"]
 description = """
 Command-line utilities for interacting with GPIOs under Linux
